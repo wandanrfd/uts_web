@@ -1,0 +1,42 @@
+.NavBar {
+  background: rgb(184, 32, 138);
+  height: 7rem;
+  width: 85%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  /* Mengatur lebar dan tinggi logo */
+  width: 100px;
+  height: 100px;
+  /* Mengatur logo di sebelah kiri */
+}
+
+.desktopMenu {
+  /* Mengatur menu di sebelah kanan */
+  margin-left: auto;
+  display: flex;
+  align-items: center; /* Mengatur tautan di tengah vertikal */
+}
+
+.desktopMenuItem {
+  margin-right: 20px; /* Jarak antara setiap elemen menu */
+  cursor: pointer;
+  text-decoration: none; /* Menghapus dekorasi tautan bawaan */
+  color: white; /* Warna teks tautan */
+  font-weight: bold; /* Tebal teks tautan */
+  font-size: 18px; /* Ukuran teks tautan */
+  transition: color 0.3s; /* Animasi perubahan warna saat dihover */
+}
+
+.desktopMenuItem:hover {
+  color: silver;
+  padding-bottom: 0.5rem;
+  border-bottom: 8px solid silver;
+}

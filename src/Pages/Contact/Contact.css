@@ -1,0 +1,64 @@
+/* Contact.css */
+#Contact {
+    background: silver;
+    overflow: hidden;
+    height: 73vh;
+    width: 100%;
+    max-width: 101.5rem;
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+    align-items: center; /* Mengatur elemen ke tengah secara vertikal */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem ;
+    margin-bottom: 1.5rem;
+    
+}
+
+.isi{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+    align-items: center; /* Mengatur elemen ke tengah secara vertikal */
+    text-align: center;
+}
+
+
+
+.content p {
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 30vh;
+    width: 30vw;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}

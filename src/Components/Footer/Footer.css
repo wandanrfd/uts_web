@@ -1,0 +1,31 @@
+.Footer {
+    background: rgb(184, 32, 138);
+    color: rgb(184, 32, 138);
+    padding: 1rem;
+    height: 5vh;
+   
+    width: 100%;
+    max-width: 99.5rem;
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+    align-items: center; /* Mengatur elemen ke tengah secara vertikal */
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .Footer a {
+    color: rgb(184, 32, 138);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+
+  
+  /* Opsi untuk mengatur lebar footer */
+  /* .Footer {
+    width: 100%;
+  } */
+  

@@ -1,0 +1,68 @@
+#home {
+    background: silver;
+    height: 73vh;
+    width: 100%;
+    max-width: 101.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+    right: 0;
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.heroContent {
+    height: 50vh;
+    width: 100%;
+    padding: 2rem;
+    font-size: 4rem; /* Increased font size to 4rem */
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 2rem; /* Increased font size to 2rem */
+    font-weight: 100;
+}
+
+.introPara {
+    font-size: 1.5rem; /* Increased font size to 1.5rem */
+    font-weight: 100;
+}
+
+.hello,
+.introName,
+.introPara {
+    margin: 0;
+    font-weight: 200;
+}
+
+.introName {
+    color: palevioletred;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 840px) {
+    .foto {
+        right: -10vw;
+    }
+    .heroContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
+}
