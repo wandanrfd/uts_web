@@ -4,7 +4,7 @@ import Footer from "../../Components/Footer/Footer";
 
 import React from "react";
 import './Home.css';
-import foto from '../../assets/foto.jpg';
+import wanda from '../../assets/wanda.jpeg';
 // import { Link } from 'react-scroll';
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
           
 
         </div>
-        <img src={foto} alt="Profile" className="foto" />
+        <img src={wanda} alt="Profile" className="foto" />
       </section>
   );
 };

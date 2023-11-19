@@ -1,0 +1,33 @@
+#Skill{
+    background: silver;
+    overflow: hidden;
+    height: 73vh;
+    width: 100%;
+    max-width: 101.5rem;
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+    align-items: center; /* Mengatur elemen ke tengah secara vertikal */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem ;
+    margin-bottom: 1.5rem;
+}
+
+.skillIsi{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+
+.umm{
+    order: 1; /* Menentukan urutan elemen */
+    margin-top: 1.5rem; /* Menambahkan jarak atas */
+    height: 500px;
+    width: 600px;
+}

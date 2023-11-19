@@ -11,6 +11,8 @@ const NavBar = () => {
                 <RouterLink to="/" className="desktopMenuItem">Home</RouterLink>
                 <RouterLink to="/about" className="desktopMenuItem">About</RouterLink>
                 <RouterLink to="/contact" className="desktopMenuItem">Contact</RouterLink>
+                <RouterLink to="/hobby" className="desktopMenuItem">Hobby</RouterLink>
+                <RouterLink to="/skill" className="desktopMenuItem">Skill</RouterLink>
             </div>
         </nav>
     );
